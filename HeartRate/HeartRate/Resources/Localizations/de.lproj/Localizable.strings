@@ -1,0 +1,111 @@
+/* 
+  Localizable.strings
+  HeartRate
+
+  Created by Phạm Hoàng on 27/8/24.
+  
+*/
+
+"PrankApp.splash.title" = "Don’t touch my phone";
+"PrankApp.splash.loading" = "This action can contain ads";
+
+"PrankApp.language.en" = "English";
+"PrankApp.language.china" = "China";
+"PrankApp.language.hindi" = "Hindi";
+"PrankApp.language.french" = "French";
+"PrankApp.language.indonesia" = "Indonesia";
+"PrankApp.language.germany" = "Gemany";
+"PrankApp.language.title" = "Language";
+"PrankApp.language.des" = "Please choose your native language. You can change language from settings later.";
+
+"PrankApp.intro.title1" = "Prank calls";
+"PrankApp.intro.des1" = "Master the art of surprise with our prank call feature.";
+"PrankApp.intro.title2" = "Funny Messages";
+"PrankApp.intro.des2" = "Craft realistic prank messages from friends, family, or your favorite celebrities";
+"PrankApp.intro.title3" = "Broken Screen Wallpaper";
+"PrankApp.intro.des3" = "30+ cracks and glitch wallpaper styles to prank your friends";
+"PrankApp.intro.title4" = "A world of laughter";
+"PrankApp.intro.des4" = "Instead of using this as a prank app, it can also be a de-stressing app";
+"PrankApp.intro.button.next" = "Next";
+"PrankApp.intro.button.prev" = "Prev";
+"PrankApp.intro.button.start" = "Start";
+
+"PrankApp.home.title" = "PrankApp";
+
+"PrankApp.alert.action.cancel" = "Cancel";
+"PrankApp.alert.action.ok" = "OK";
+
+"PrankApp.alert.ATT.title" = "“Find my phone by clap & flash” will like to used track your activity across other companies' apps and websites?";
+"PrankApp.alert.ATT.message" = "To turn on permission to provide service and personalized marketing. Tap Settings and turn on tracking permission.";
+"PrankApp.alert.settings" = "Setting";
+
+"PrankApp.alert.update.title" = "Update";
+"PrankApp.alert.update.message" = "A new version is available. Please update for a better experience.";
+
+"PrankApp.settings.title" = "Setting";
+"PrankApp.settings.hapatic" = "Hapatic Feedback";
+"PrankApp.settings.sound" = "Click Sound";
+"PrankApp.settings.language" = "Language";
+"PrankApp.settings.supportAndFeedback" = "Support & Feedback";
+"PrankApp.settings.rate" = "Rating";
+"PrankApp.settings.shareApp" = "Share App";
+"PrankApp.settings.feedback" = "Give us your feedback";
+"PrankApp.settings.howToUse" = "How to use";
+"PrankApp.settings.privacy" = "Privacy";
+"PrankApp.settings.term" = "Term of use";
+
+"PrankApp.rate.normal.title" = "Do you like our app?";
+"PrankApp.rate.normal.des" = "Give us a quick rating so we know if you like it.";
+"PrankApp.rate.title" = "Thanks for the Rating";
+"PrankApp.rate.oneTwoThree.des" = "We are working hard for a better user experience.";
+"PrankApp.rate.fourFive.des" = "That great to hear you are satisfied with the product.";
+"PrankApp.rate.thankYou" = "Thanks for your rating!";
+"PrankApp.rate.button.rate" = "Rate";
+"PrankApp.rate.button.notNow" = "Not now";
+
+"PrankApp.howToUse.howToUse1" = "1. Import an image";
+"PrankApp.howToUse.howToUse2" = "2. Choose a crack style";
+"PrankApp.howToUse.howToUse3" = "3. Save your broken wallaper";
+
+"alert.noCamPermission.title" = "“Prank App: Funny Call & Screen” would like to access your Camera";
+"alert.noCamPermission.message" = "To use video call, Prank App: Funny Call & Screen needs access to your iPhone's camera.";
+"alert.requestAlbum.title" = "“Prank App: Funny Call & Screen” would like to access your photos.";
+"alert.requestAlbum.message" = "App needs access to your photo library in order to Pick Photo. Tap Settings and turn on Camera.";
+
+"preview.title" = "Preview";
+
+"brokenScreen.title" = "Broken Screen";
+
+"toast.saveImage" = "Save Success";
+
+"prankMessage.title" = "Prank Message";
+
+"prankCall.title" = "Prank Call";
+"viewAll" = "View All ";
+"caller" = "Caller";
+"advanceSetting" = "Advanced Settings";
+"timer" = "Timer";
+"ringtone" = "Ringtone";
+"vibration" = "Vibration";
+"callType" = "Call type";
+"audioCall" = "Audio call";
+"videoCall" = "Video call";
+"start" = "Start";
+"addCaller" = "Add Caller";
+"chooseCaller" = "Please choose Caller";
+
+"decline" = "DECLINE";
+"accept" = "ACCEPT";
+
+"addNewCaller" = "Add new caller";
+"enterCallerName" = "Enter caller name";
+"name" = "Name";
+"avatar" = "Avatar";
+"video" = "Video";
+"upload" = "Upload";
+"completeAll" = "Please complete all information";
+"uploadFail" = "Picker image or video false";
+
+"secondLater" = "Seconds later";
+"minuteLater" = "Minute later";
+"now" = "Now";

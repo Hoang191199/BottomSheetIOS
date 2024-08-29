@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'HeartRate' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for HeartRate
+  pod "Kingfisher"
+  pod "Reusable"
+  pod 'SwiftGen', '6.6.2'
+  pod 'SwiftyJSON', '~> 4.0'
+  pod 'iOSHeavenLib', :git => 'https://PhamHoang1999@bitbucket.org/tripsoftvn/ios-heaven-lib.git', :tag => '0.0.54'
+  pod 'PanModal'
+  
+  target 'HeartRateTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'HeartRateUITests' do
+    # Pods for testing
+  end
+
+end

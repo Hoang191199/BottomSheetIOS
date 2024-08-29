@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BottomSheetViewController" customModule="HeartRate" customModuleProvider="target">
+            <connections>
+                <outlet property="backgroundView" destination="Df4-jd-BHH" id="4bz-iU-XLd"/>
+                <outlet property="contentView" destination="iw3-0H-YhC" id="vML-2w-I1D"/>
+                <outlet property="contentViewBottomConstraint" destination="4IE-km-6ag" id="ED0-HL-wGt"/>
+                <outlet property="contentViewHeight" destination="5wu-VK-p2T" id="gfh-9y-u3y"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Df4-jd-BHH" userLabel="BgView">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iw3-0H-YhC">
+                    <rect key="frame" x="0.0" y="652" width="393" height="200"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="5wu-VK-p2T"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="iw3-0H-YhC" secondAttribute="bottom" id="4IE-km-6ag"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Df4-jd-BHH" secondAttribute="trailing" id="7ny-ZM-vbW"/>
+                <constraint firstItem="iw3-0H-YhC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="HMg-QP-vxk"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="iw3-0H-YhC" secondAttribute="trailing" id="HTV-1K-wKO"/>
+                <constraint firstAttribute="bottom" secondItem="Df4-jd-BHH" secondAttribute="bottom" id="ZhU-11-3YJ"/>
+                <constraint firstItem="iw3-0H-YhC" firstAttribute="top" relation="greaterThanOrEqual" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="40" id="fLZ-Nq-sNJ"/>
+                <constraint firstItem="Df4-jd-BHH" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="jeN-bS-0mu"/>
+                <constraint firstItem="Df4-jd-BHH" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="qsQ-tM-5Ty"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="-11"/>
+        </view>
+    </objects>
+</document>

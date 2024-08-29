@@ -1,0 +1,31 @@
+xcassets:
+  inputs:
+    - HeartRate/Resources/Assets.xcassets
+  outputs:
+    - templateName: swift5
+      output: HeartRate/Resources/Generated/Assets.swift
+
+colors:
+      inputs: HeartRate/Resources/Colors/Colors.json
+      outputs:
+        templateName: swift5
+        output: HeartRate/Resources/Generated/ColorsGen.swift
+        params:
+            enumName: ColorsGen
+        
+strings:
+  inputs:
+    # 1
+    - HeartRate/Resources/Localizations/en.lproj
+  outputs:
+    - templatePath: custom-swift4.stencil
+      # 2
+      params:
+        publicAccess: true
+      output: HeartRate/Resources/Generated/Localized.swift
+
+fonts:
+  inputs: HeartRate/Resources/Fonts
+  outputs:
+    templateName: swift5
+    output: HeartRate/Resources/Generated/Fonts.swift
